@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+td {
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+td.result-value {
+  background-color: black;
+  color: white;
+  align-content: center;
+}
+
+tr.js-number-button {
+  background-color: rgb(63, 63, 63);
+}
+
+input[type="button"].js-initialize {
+  background-color: gray;
+}
+input[type="button"].js-operator {
+  background-color: orange;
+}
+input[type="button"] {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(63, 63, 63);
+  border: none;
+  color: white;
+  font-size: 19px;
+}
+input[type="input"].result-value-space {
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  border: none;
+  width: 90%;
+  height: 100%;
+}
