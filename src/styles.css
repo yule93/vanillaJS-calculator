@@ -1,44 +1,46 @@
 body {
   font-family: sans-serif;
-  background-color: black;
+  background-color: rgb(99, 175, 247);
   color: white;
 }
 
 td {
-  width: 140px;
+  width: 90px;
   height: 60px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  margin: 5px;
 }
-
 td.result-value {
-  background-color: black;
+  background-color: rgb(99, 175, 247);
   color: white;
   align-content: center;
-}
-
-tr.js-number-button {
-  background-color: rgb(63, 63, 63);
+  border: 3px solid white;
 }
 
 input[type="button"].js-initialize {
   background-color: gray;
+  color: white;
 }
 input[type="button"].js-operator {
-  background-color: orange;
+  background-color: rgb(236, 159, 159);
+  font-size: 25px;
+  color: white;
 }
 input[type="button"] {
   width: 100%;
   height: 100%;
   text-align: center;
-  border-radius: 15px;
-  background-color: rgb(63, 63, 63);
+  border-radius: 5px;
+  background-color: white;
   border: none;
-  color: white;
-  font-size: 19px;
+  color: rgb(99, 175, 247);
+  font-size: 20px;
 }
 input[type="button"]:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 input[type="text"].result-value-space {
   background-color: transparent;
