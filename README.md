@@ -9,4 +9,4 @@
   If flag is true, it means that the number is located in front of button you clicked.
 2. So I devided a numeric expression by the operation.
 
-# Execution link : maybe soon later
+- You can do it in this link : https://yule93.github.io/vanillaJS-calculator
